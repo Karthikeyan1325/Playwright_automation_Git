@@ -1,0 +1,17 @@
+const{test,expect}  = require('@playwright/test')
+
+
+test('test1',async({page})=>{
+
+    await page.goto("https://www.demoblaze.com/index.html")
+await expect(page).toHaveTitle('STORE')
+
+})
+
+
+test('test2',async({page})=>{
+
+    await page.goto("https://demo.opencart.com/")
+await expect(page).toHaveTitle('Your Store')
+
+})

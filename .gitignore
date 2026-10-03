@@ -1,0 +1,10 @@
+node_modules/
+playwright-report/
+test-results/
+allure-report/
+allure-results/
+screenshots/
+tests/screenshot/
+results.json
+.vscode/
+.env/
